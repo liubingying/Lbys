@@ -49,6 +49,7 @@ SELECT cp.PrivilegeMaster AS '角色类型',   <br/>
    角色类型为CF_Role   AND   角色编号在角色集合RoleIDs中
   OR
    角色类型为CF_User   AND   人员编号为UserID
-  AND 权限属性为Permit   AND   权限为Sys_Button AND 菜单名字为订单的数据
+  AND 权限属性为Permit   AND   权限为Sys_Button AND 菜单名字为订单的数据<br/>
+ 查询结果如图<br/>
   ![image](2.jpg)
   
