@@ -22,7 +22,7 @@ SELECT cp.PrivilegeMaster AS '角色类型',   <br/>
      3、在权限表LEFT JOIN 页面表中查找角色类型为CF_Role   AND   角色编号在角色集合RoleIDs中 <br/>
   OR  角色类型为CF_User   AND   人员编号为UserID  AND 权限属性为Permit   AND   权限为Sys_Menu的数据 <br/>
    查询结果如图：
-   ![image](1)<br/>
+   ![image](1.jpg)<br/>
   **查看订单页面中的操作权限**<br/>
   sql语句如下： <br/>
   SELECT cp.PrivilegeMaster AS '角色类型',<br/>
@@ -50,5 +50,5 @@ SELECT cp.PrivilegeMaster AS '角色类型',   <br/>
   OR
    角色类型为CF_User   AND   人员编号为UserID
   AND 权限属性为Permit   AND   权限为Sys_Button AND 菜单名字为订单的数据
-  ![image](2)
+  ![image](2.jpg)
   
