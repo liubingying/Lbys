@@ -1,6 +1,5 @@
-# Lbys
-查询用户test1可以查看的页面
-sql语句如下
+# 查询用户test1可以查看的页面
+sql语句如下  <br/>
 SELECT cp.PrivilegeMaster AS '角色类型',
     cp.PrivilegeMasterKey AS '类型编号',
     cp.PrivilegeAccess AS '对象类型',
